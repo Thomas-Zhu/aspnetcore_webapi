@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>APIBook</name>
+    </assembly>
+    <members>
+        <member name="M:APIBook.Controllers.BookController.Delete(System.Int32)">
+            <summary>
+            删除图书
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:APIBook.Models.BookDTO">
+            <summary>
+            图书DTO
+            </summary>
+        </member>
+        <member name="P:APIBook.Models.BookDTO.Id">
+            <summary>
+            ID
+            </summary>
+        </member>
+        <member name="P:APIBook.Models.BookDTO.Title">
+            <summary>
+            标题
+            </summary>
+        </member>
+        <member name="P:APIBook.Models.BookDTO.PublicationDate">
+            <summary>
+            出版日期
+            </summary>
+        </member>
+    </members>
+</doc>
